@@ -32,7 +32,7 @@ class Scores():
         self.episode += 1
         return False
 
-    def FlushLog(self, prefix):
+    def FlushLog(self, prefix, showNow):
         print( F'\nMin: {min(self.scores)}')
         print( F'Max: {max(self.scores)}')
         print( F'Count: {len(self.scores)}')
@@ -43,6 +43,8 @@ class Scores():
         plt.plot(np.arange(len(self.scores)), self.scores)
         plt.ylabel('Score')
         plt.xlabel('Episode #')
+        if showNow:
+            plt.show()
         plt.savefig(F'{prefix}_scores.png', dpi=300)
 
         window_mean = np.mean(self.scores_window)
