@@ -43,9 +43,9 @@ class Scores():
         plt.plot(np.arange(len(self.scores)), self.scores)
         plt.ylabel('Score')
         plt.xlabel('Episode #')
+        plt.savefig(F'{prefix}_scores.png', dpi=300)
         if showNow:
             plt.show()
-        plt.savefig(F'{prefix}_scores.png', dpi=300)
 
         window_mean = np.mean(self.scores_window)
         self.scores_log.append( (self.episode, window_mean) )

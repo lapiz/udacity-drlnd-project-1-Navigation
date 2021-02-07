@@ -1,0 +1,8 @@
+Job started at 2021-02-07 23:52:26.612595
+Episode 5	Average Score: 16.80
+Min: 3.0
+Max: 23.0
+Count: 99
+Avg: 15.363636363636363
+Std: 4.038838080374821
+Job finished at 2021-02-08 00:41:42.497572

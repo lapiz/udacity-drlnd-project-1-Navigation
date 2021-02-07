@@ -1,0 +1,14 @@
+Job started at 2021-02-07 23:33:27.967575
+Episode 100	Average Score: 0.67
+Episode 200	Average Score: 3.96
+Episode 300	Average Score: 7.45
+Episode 400	Average Score: 10.07
+Episode 500	Average Score: 12.51
+Episode 521	Average Score: 13.03
+Episode 521	Average Score: 13.03
+Min: -3.0
+Max: 22.0
+Count: 521
+Avg: 7.214971209213052
+Std: 5.410575275073115
+Job finished at 2021-02-07 23:39:14.163903
