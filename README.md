@@ -36,7 +36,7 @@ pip install mlagents==0.4
 ```
 
 - Install PyTorch
-  - You cannot instal PyTorch 0.4 by pip
+  - You cannot install PyTorch 0.4 by pip
   - Following [PyTorch Offical Homage](https://pytorch.org/get-started/previous-versions/), you can install with conda. It is not exactly same version, but work well.
 
 ```bash
