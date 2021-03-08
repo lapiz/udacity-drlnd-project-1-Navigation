@@ -18,6 +18,31 @@ My agent get an average score of +13 over 100 consecutive episodes.
   - mlagents == 0.4 (Unity ML Agents)
 - Or you can run this project on jupyter noteobook.
 
+### Dependencies
+
+To set up your python environment (with conda) to run code in the project, follow the intstruction below.
+
+- Create and activate a new envirionment with Python 3.6
+
+```bash
+conda create --name project1 python=3.6
+conda activate project1
+```
+
+- Install Unity ML Agents packages
+
+```bash
+pip install mlagents==0.4
+```
+
+- Install PyTorch
+  - You cannot instal PyTorch 0.4 by pip
+  - Following [PyTorch Offical Homage](https://pytorch.org/get-started/previous-versions/), you can install with conda. It is not exactly same version, but work well.
+
+```bash
+conda install pytorch=0.4.1 -c pytorch
+```
+
 ### Downloading the Unity environment
 
 Different versions of the Unity environment are required on different operational systems.
