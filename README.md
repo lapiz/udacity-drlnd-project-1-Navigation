@@ -63,6 +63,9 @@ Different versions of the Unity environment are required on different operationa
 
 - README.md
   - This file
+- requirements.txt
+  - python environment requirements packages
+  - Use pip with -r options
 - Navigation.ipynb
   - Main notebook file.
   - Based on udacity project skelecton notebook
