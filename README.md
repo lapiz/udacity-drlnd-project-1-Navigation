@@ -29,18 +29,12 @@ conda create --name project1 python=3.6
 conda activate project1
 ```
 
-- Install Unity ML Agents packages
+- Clone my project repository and install requirements.txt
 
 ```bash
-pip install mlagents==0.4
-```
-
-- Install PyTorch
-  - You cannot install PyTorch 0.4 by pip
-  - Following [PyTorch Offical Homage](https://pytorch.org/get-started/previous-versions/), you can install with conda. It is not exactly same version, but work well.
-
-```bash
-conda install pytorch=0.4.1 -c pytorch
+git clone https://github.com/lapiz/udacity-drlnd-project-1-Navigation.git
+cd udacity-drlnd-project-1-Navigation
+pip install -r requirements.txt
 ```
 
 ### Downloading the Unity environment
